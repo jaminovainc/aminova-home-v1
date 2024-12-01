@@ -96,13 +96,13 @@ header {
 
 .service {
     display: inline-block;
-    width: 200px;
+    width: 225px;
     margin: 20px;
     text-align: center;
 }
 
 .service img {
-    max-width: 100px;
+    max-width: 75px;
     height: auto;
     margin-bottom: 10px;
 }
