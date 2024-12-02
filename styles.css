@@ -36,27 +36,41 @@ header {
     border-radius: 10px;
 }
 
-.hero h1 {
-    font-size: 2.0rem;
+.hero h2 {
+    font-size: 1.8rem;
 }
 
 .hero p {
-    font-size: 1.0rem;
+    font-size: 0.85rem;
     margin: 20px 0;
 }
 
 .button {
     display: inline-block;
-    background-color: #0072b1;
+    background-color: #0072b1; /* LinkedIn blue */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 14px;
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    cursor: pointer;
 }
 
 .button:hover {
-    background-color: #005582;
+    background-color: #005582; /* Darker blue on hover */
+}
+
+.button:focus {
+    outline: none; /* Prevent focus outline */
+    box-shadow: none; /* Remove focus shadow */
+}
+
+a {
+    text-decoration: none; /* Remove underline or default styles */
+    border: none; /* Remove border from links */
+    outline: none; /* Remove outline when focused */
 }
 
 .founders {
